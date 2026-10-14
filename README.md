@@ -10,7 +10,7 @@ Dashboard de futebol desenvolvido como projeto de portfólio para explorar dados
 - Indicadores, resultados e atletas abrem detalhes contextuais; elenco e artilharia têm busca e filtros.
 - Separação entre camada de dados (`data.js`), renderização (`renderers.js`) e conteúdo detalhado (`details.js`).
 - Interface adaptável a telas menores, estados de foco para teclado e suporte à preferência por movimento reduzido.
-- Alternância entre temas claro e escuro, com preferência salva entre páginas e visitas.
+- Alternância entre temas claro e escuro, respeitando o sistema na primeira visita e salvando a preferência entre páginas e visitas.
 - Feed de notícias do Corinthians atualizado por GitHub Actions, sem chave de API no navegador.
 - Fontes, recortes temporais e limitações documentados para tornar a leitura dos números verificável.
 

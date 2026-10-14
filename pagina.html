@@ -10,11 +10,15 @@
     <meta name="theme-color" content="#0d0f12" />
     <!-- Eu restauro o tema salvo antes de carregar os estilos para evitar uma troca visual. -->
     <script>
+      let savedTheme = null;
       try {
-        const theme = localStorage.getItem("fiel-em-dados-theme");
-        if (theme === "light") document.documentElement.dataset.theme = "light";
+        savedTheme = localStorage.getItem("fiel-em-dados-theme");
       } catch {
-        /* Eu mantenho o tema escuro padrão se o navegador bloquear o armazenamento local. */
+        // Eu uso a preferência do sistema se o navegador bloquear o armazenamento local.
+      }
+      const systemPrefersLight = window.matchMedia?.("(prefers-color-scheme: light)").matches;
+      if (savedTheme === "light" || (savedTheme === null && systemPrefersLight)) {
+        document.documentElement.dataset.theme = "light";
       }
     </script>
     <link rel="icon" type="image/png" href="images/corinthians-logo.png" />
