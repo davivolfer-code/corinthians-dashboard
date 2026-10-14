@@ -10,6 +10,7 @@ Dashboard de futebol desenvolvido como projeto de portfólio para explorar dados
 - Indicadores, resultados e atletas abrem detalhes contextuais; elenco e artilharia têm busca e filtros.
 - Separação entre camada de dados (`data.js`), renderização (`renderers.js`) e conteúdo detalhado (`details.js`).
 - Interface adaptável a telas menores, estados de foco para teclado e suporte à preferência por movimento reduzido.
+- Alternância entre temas claro e escuro, com preferência salva entre páginas e visitas.
 - Feed de notícias do Corinthians atualizado por GitHub Actions, sem chave de API no navegador.
 - Fontes, recortes temporais e limitações documentados para tornar a leitura dos números verificável.
 
@@ -94,6 +95,7 @@ Abra `index.html` em um navegador. O escudo e as fontes tipográficas dependem d
 - `section-page.js`: montagem das visões internas, incluindo escalação em campo tático.
 - `section-pages.css`: estilos das visões detalhadas.
 - `news.js`: carregamento periódico do snapshot de notícias no navegador.
+- `theme.js`: alternância e persistência da preferência de tema claro ou escuro.
 - `atualizar-noticias.py` e `.github/workflows/atualizar-noticias.yml`: coleta do RSS e atualização agendada de `noticias.json`.
 
 ### Ativar atualização automática de notícias

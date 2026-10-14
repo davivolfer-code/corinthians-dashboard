@@ -41,6 +41,25 @@
   -webkit-font-smoothing: antialiased;
 }
 
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f2f3f5;
+  --surface: #ffffff;
+  --surface-raised: #f7f8fa;
+  --surface-hover: #eceef1;
+  --border: #d9dde3;
+  --border-soft: #e5e8ec;
+  --text: #20242a;
+  --text-secondary: #555e69;
+  --text-muted: #717b87;
+  --red: #d51f3c;
+  --red-soft: #fbe8ec;
+  --green: #16804c;
+  --green-soft: #e6f4ec;
+  --gold: #a57824;
+  --gold-soft: #fbf4e6;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -251,6 +270,39 @@ h2 {
 .top-actions > .period:not(.competition-select) {
   min-width: 135px;
   cursor: pointer;
+}
+.theme-toggle {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 7px 10px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: var(--surface);
+  color: var(--text-secondary);
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+}
+.theme-toggle:hover {
+  border-color: var(--red);
+  color: var(--text);
+}
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 2px;
+}
+.theme-toggle-icon {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
 }
 .period {
   padding: 9px 12px;
@@ -1754,6 +1806,17 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 900px) {
+  .topbar {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .top-actions {
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-left: auto;
+  }
+}
 .avatar {
   display: grid;
   flex: 0 0 auto;
@@ -1862,6 +1925,97 @@ footer {
   color: var(--text-muted);
   font-size: 8px;
   line-height: 1.5;
+}
+
+/* Eu adapto os componentes que tinham fundos fixos ao tema claro. */
+:root[data-theme="light"] body {
+  background: radial-gradient(ellipse at 88% 0%, #fbe9ec 0, transparent 34rem), var(--bg);
+}
+:root[data-theme="light"] .sidebar {
+  background: #fafbfc;
+  border-color: var(--border);
+}
+:root[data-theme="light"] .sidebar nav a.active {
+  border-color: #efc2ca;
+  color: #b71934;
+}
+:root[data-theme="light"] .notice {
+  border-color: #e8d7b0;
+  color: #69572d;
+}
+:root[data-theme="light"] .notice strong {
+  color: #624914;
+}
+:root[data-theme="light"] .notice button {
+  color: #775e25;
+}
+:root[data-theme="light"] .period,
+:root[data-theme="light"] .competition-select option {
+  border-color: var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+:root[data-theme="light"] .metric {
+  background: linear-gradient(145deg, #fff, #f7f8fa 80%);
+}
+:root[data-theme="light"] .panel,
+:root[data-theme="light"] .section-card {
+  background: linear-gradient(145deg, #fff, #f8f9fb 75%);
+}
+:root[data-theme="light"] .metric:nth-child(2) .metric-value,
+:root[data-theme="light"] .metric:nth-child(3) .metric-value {
+  color: var(--text);
+}
+:root[data-theme="light"] .recent-match,
+:root[data-theme="light"] .detail-result {
+  border-color: var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+:root[data-theme="light"] .recent-match:hover {
+  border-color: #e2aab4;
+  background: #fff5f6;
+}
+:root[data-theme="light"] .player-avatar {
+  border-color: var(--border);
+  background: #eceff3;
+  color: var(--text-secondary);
+}
+:root[data-theme="light"] .fixture.featured {
+  border-color: #efc2ca;
+  background: linear-gradient(110deg, #fff1f3, #fff 82%);
+}
+:root[data-theme="light"] .fixture.featured .date {
+  background: #f8dce2;
+  color: #a91832;
+}
+:root[data-theme="light"] .fixture-time {
+  background: #eceff3;
+}
+:root[data-theme="light"] .detail-dialog {
+  border-color: var(--border);
+  background: #fff;
+}
+:root[data-theme="light"] .dialog-head {
+  background: radial-gradient(ellipse at 8% 0%, #fbe9ec, transparent 68%);
+}
+:root[data-theme="light"] .dialog-foot kbd {
+  border-color: var(--border);
+}
+:root[data-theme="light"] .detail-callout {
+  border-color: #b9dec8;
+  background: #edf8f1;
+}
+:root[data-theme="light"] .detail-callout.danger {
+  border-color: #efc2ca;
+  background: #fff0f2;
+}
+:root[data-theme="light"] .detail-feature {
+  border-color: #efc2ca;
+  background: linear-gradient(105deg, #fff0f2, #fff 90%);
+}
+:root[data-theme="light"] .detail-feature strong {
+  color: var(--text);
 }
 @media (max-width: 900px) {
   .comparison-grid {

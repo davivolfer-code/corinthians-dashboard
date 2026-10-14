@@ -8,6 +8,15 @@
       content="Desempenho, elenco, artilharia, jogos, escalação e últimas notícias do Corinthians."
     />
     <meta name="theme-color" content="#0d0f12" />
+    <!-- Eu restauro o tema salvo antes de carregar os estilos para evitar uma troca visual. -->
+    <script>
+      try {
+        const theme = localStorage.getItem("fiel-em-dados-theme");
+        if (theme === "light") document.documentElement.dataset.theme = "light";
+      } catch {
+        /* Eu mantenho o tema escuro padrão se o navegador bloquear o armazenamento local. */
+      }
+    </script>
     <link rel="icon" type="image/png" href="images/corinthians-logo.png" />
     <title>Detalhes | Fiel em Dados</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -80,6 +89,20 @@
               <option value="paulistao">Paulistão</option>
               <option value="sulamericana">Sul-Americana</option>
             </select>
+            <button
+              class="theme-toggle"
+              type="button"
+              data-theme-toggle
+              aria-label="Ativar tema claro"
+            >
+              <svg class="theme-toggle-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="4"></circle>
+                <path
+                  d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"
+                ></path>
+              </svg>
+              <span data-theme-label>Claro</span>
+            </button>
           </div>
         </header>
         <!-- O JavaScript monta aqui a seção indicada pelo parâmetro da URL. -->
@@ -119,5 +142,6 @@
     <script src="news.js"></script>
     <script src="details.js"></script>
     <script src="script.js"></script>
+    <script src="theme.js"></script>
   </body>
 </html>
