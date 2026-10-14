@@ -17,12 +17,12 @@ Dashboard de futebol desenvolvido como projeto de portfólio para explorar dados
 
 Abra `index.html` diretamente no navegador ou sirva esta pasta com qualquer servidor estático. Não há instalação de pacotes nem etapa de build. As fontes tipográficas vêm do Google Fonts; sem internet, o navegador usa as fontes de reserva do sistema.
 
-## Publicar no GitHub Pages
+## Repositório e publicação
 
-1. Crie um repositório no GitHub e envie **o conteúdo desta pasta** (incluindo `index.html`, `pagina.html`, scripts, estilos, `images/` e `.github/`) para a raiz da branch `main`.
-2. No repositório, abra **Settings → Pages**. Em **Build and deployment**, escolha **Deploy from a branch**, selecione `main` e `/(root)`, e salve.
-3. Aguarde a publicação indicada em **Actions**. O endereço será `https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/`.
-4. Para habilitar a atualização de notícias, confirme em **Settings → Actions → General → Workflow permissions** que workflows podem gravar no repositório. Depois execute uma vez **Actions → Atualizar notícias do Corinthians → Run workflow**.
+- Repositório público: [davivolfer-code/corinthians-dashboard](https://github.com/davivolfer-code/corinthians-dashboard).
+- Dashboard publicado: [davivolfer-code.github.io/corinthians-dashboard](https://davivolfer-code.github.io/corinthians-dashboard/).
+- O GitHub Pages publica a raiz da branch `main`; novos commits nessa branch atualizam o site.
+- O workflow de notícias está no repositório. Para permitir que ele grave manchetes atualizadas, habilite **Settings → Actions → General → Workflow permissions → Read and write permissions** e execute uma vez **Actions → Atualizar notícias do Corinthians → Run workflow**.
 
 Como os arquivos usam caminhos relativos, o site também funciona em repositório de projeto, cujo endereço inclui o nome do repositório. Antes de divulgar, revise os créditos e direitos de uso de imagens, escudo e dados.
 
@@ -105,7 +105,7 @@ O workflow está configurado para buscar o feed do [UOL Esporte — Corinthians]
 1. Adicionar fotografias de atletas com autorização e créditos adequados.
 2. Ampliar os perfis com números e estatísticas individuais depois de validar cada dado em fontes confiáveis.
 3. Integrar uma API de futebol para atualizar automaticamente resultados e classificação, com estados claros de carregamento e falha.
-4. Publicar o repositório no GitHub Pages e preparar a apresentação do projeto para o LinkedIn.
+4. Preparar a apresentação do projeto e uma demonstração para o LinkedIn.
 
 ## Licença
 
