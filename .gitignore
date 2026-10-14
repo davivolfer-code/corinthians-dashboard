@@ -1,0 +1,6 @@
+# Eu ignoro arquivos locais do macOS para manter o repositório limpo.
+.DS_Store
+
+# Arquivos temporários e logs não fazem parte do site publicado.
+*.log
+.cache/

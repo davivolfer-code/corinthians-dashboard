@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Desempenho, elenco, artilharia, jogos, escalação e últimas notícias do Corinthians."
+    />
+    <meta name="theme-color" content="#0d0f12" />
+    <link rel="icon" type="image/png" href="images/corinthians-logo.png" />
+    <title>Detalhes | Fiel em Dados</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="section-pages.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#page-main">Pular para o conteúdo</a>
+    <div class="layout">
+      <!-- Eu reutilizo a navegação para manter as páginas internas consistentes. -->
+      <aside class="sidebar">
+        <a class="brand" href="index.html"
+          ><span class="brand-mark">F</span
+          ><span>FIEL<span class="muted">EM</span><br />DADOS</span></a
+        >
+        <div class="club">
+          <img src="images/corinthians-logo.png" alt="Logo do Corinthians" />
+          <div>
+            <strong>Corinthians</strong
+            ><small id="club-competition">Brasileirão Série A · 2026</small>
+          </div>
+        </div>
+        <nav aria-label="Navegação principal">
+          <a href="index.html"><span>01</span> Visão geral</a
+          ><a href="pagina.html?secao=desempenho" data-nav="desempenho"
+            ><span>02</span> Desempenho</a
+          ><a href="pagina.html?secao=elenco" data-nav="elenco"><span>03</span> Elenco</a
+          ><a href="pagina.html?secao=artilharia" data-nav="artilharia"
+            ><span>04</span> Artilharia</a
+          ><a href="pagina.html?secao=jogos" data-nav="jogos"><span>05</span> Jogos</a
+          ><a href="pagina.html?secao=escalacao" data-nav="escalacao"><span>06</span> Escalação</a
+          ><a href="pagina.html?secao=noticias" data-nav="noticias"
+            ><span>07</span> Últimas notícias</a
+          >
+        </nav>
+        <div class="sidebar-note">
+          <span class="live-dot"></span>
+          <div>
+            <strong>Dados com referência</strong
+            ><small id="snapshot-date">Recorte em 13/10/2026</small>
+          </div>
+        </div>
+        <div class="sidebar-foot">
+          FEITO DA FIEL PARA A FIEL<br /><small>Futebol · Dados · Visualização</small>
+        </div>
+      </aside>
+      <main id="page-main" class="section-main">
+        <!-- Os seletores preservam a temporada e o campeonato entre páginas. -->
+        <header class="section-topbar">
+          <a class="back-link" href="index.html">← <span>Voltar ao painel</span></a>
+          <div class="top-actions">
+            <label class="sr-only" for="season-selector">Selecionar temporada</label
+            ><select class="period" id="season-selector" aria-label="Selecionar temporada">
+              <option value="2026">Temporada 2026</option>
+              <option value="2025">Temporada 2025</option></select
+            ><label class="sr-only" for="competition-selector">Selecionar campeonato</label
+            ><select
+              class="period competition-select"
+              id="competition-selector"
+              aria-label="Selecionar campeonato"
+            >
+              <option value="brasileirao">Brasileirão</option>
+              <option value="copa-do-brasil">Copa do Brasil</option>
+              <option value="libertadores">Libertadores</option>
+              <option value="paulistao">Paulistão</option>
+              <option value="sulamericana">Sul-Americana</option>
+            </select>
+          </div>
+        </header>
+        <!-- O JavaScript monta aqui a seção indicada pelo parâmetro da URL. -->
+        <div id="section-content" aria-live="polite"></div>
+        <div id="section-sources" class="source-credit"></div>
+        <dialog class="detail-dialog" id="detail-dialog" aria-labelledby="detail-title">
+          <div class="dialog-shell">
+            <header class="dialog-head">
+              <div>
+                <div class="eyebrow" id="detail-kicker">FIEL EM DADOS · DETALHES</div>
+                <h2 id="detail-title">Detalhes</h2>
+              </div>
+              <button
+                class="dialog-close"
+                type="button"
+                data-close-dialog
+                aria-label="Fechar janela"
+              >
+                ×
+              </button>
+            </header>
+            <div class="dialog-content" id="detail-content"></div>
+            <footer class="dialog-foot">
+              <span id="detail-source"></span><span>ESC <kbd>Esc</kbd> para fechar</span>
+            </footer>
+          </div>
+        </dialog>
+        <footer>
+          <span>FIEL EM DADOS <i>·</i> PROJETO DE PORTFÓLIO</span
+          ><span>Conteúdo com referência e fontes identificadas</span>
+        </footer>
+      </main>
+    </div>
+    <script src="data.js"></script>
+    <script src="competitions.js"></script>
+    <script src="section-page.js"></script>
+    <script src="news.js"></script>
+    <script src="details.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Painel de desempenho do Corinthians — projeto de análise de dados esportivos."
+    />
+    <meta name="theme-color" content="#0d0f12" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Fiel em Dados | Corinthians" />
+    <meta
+      property="og:description"
+      content="Dashboard de futebol com dados documentados, análises de desempenho, elenco, artilharia e calendário do Corinthians."
+    />
+    <link rel="icon" type="image/png" href="images/corinthians-logo.png" />
+    <title>Fiel em Dados | Corinthians</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#inicio">Pular para o conteúdo</a>
+    <div class="layout">
+      <!-- Eu agrupo aqui a marca, os atalhos e a referência do recorte atual. -->
+      <aside class="sidebar">
+        <a class="brand" href="#inicio"
+          ><span class="brand-mark">F</span
+          ><span>FIEL<span class="muted">EM</span><br />DADOS</span></a
+        >
+        <div class="club">
+          <img src="images/corinthians-logo.png" alt="Logo do Corinthians" />
+          <div>
+            <strong>Corinthians</strong
+            ><small id="club-competition">Brasileirão Série A · 2026</small>
+          </div>
+        </div>
+        <nav aria-label="Navegação principal">
+          <a class="active" href="index.html" data-nav="overview" aria-current="page"
+            ><span>01</span> Visão geral</a
+          ><a href="pagina.html?secao=desempenho" data-nav="desempenho"
+            ><span>02</span> Desempenho</a
+          ><a href="pagina.html?secao=elenco" data-nav="elenco"><span>03</span> Elenco</a
+          ><a href="pagina.html?secao=artilharia" data-nav="artilharia"
+            ><span>04</span> Artilharia</a
+          ><a href="pagina.html?secao=jogos" data-nav="jogos"><span>05</span> Jogos</a
+          ><a href="pagina.html?secao=escalacao" data-nav="escalacao"><span>06</span> Escalação</a
+          ><a href="pagina.html?secao=noticias" data-nav="noticias"
+            ><span>07</span> Últimas notícias</a
+          >
+        </nav>
+        <div class="sidebar-note">
+          <span class="live-dot"></span>
+          <div>
+            <strong>Dados com referência</strong
+            ><small id="snapshot-date">Recorte em 13/10/2026</small>
+          </div>
+        </div>
+        <div class="sidebar-foot"><br /><small>Futebol · Dados · Visualização</small></div>
+      </aside>
+      <main id="inicio">
+        <!-- Estes controles mantêm o ano e a competição visíveis no topo. -->
+        <header class="topbar">
+          <div>
+            <div class="eyebrow" id="competition-eyebrow">CENTRO DE ANÁLISE · BRASILEIRÃO 2026</div>
+            <h1>Visão geral</h1>
+            <p class="header-subtitle">A temporada do Timão traduzida em números.</p>
+          </div>
+          <div class="top-actions">
+            <label class="sr-only" for="season-selector">Selecionar temporada</label
+            ><select class="period" id="season-selector" aria-label="Selecionar temporada">
+              <option value="2026">Temporada 2026</option>
+              <option value="2025">Temporada 2025</option></select
+            ><label class="sr-only" for="competition-selector">Selecionar campeonato</label
+            ><select
+              class="period competition-select"
+              id="competition-selector"
+              aria-label="Selecionar campeonato"
+            >
+              <option value="brasileirao">Brasileirão</option>
+              <option value="copa-do-brasil">Copa do Brasil</option>
+              <option value="libertadores">Libertadores</option>
+              <option value="paulistao">Paulistão</option></select
+            ><span class="avatar" title="Fiel em Dados">F</span>
+          </div>
+        </header>
+        <div class="notice">
+          <span class="notice-label">DADOS</span>
+          <div>
+            <strong>Dados reais · atualização em 13/10/2026</strong
+            ><span>
+              Classificação e jogos do Brasileirão; estatísticas individuais com referência de
+              24/09.</span
+            >
+          </div>
+          <button aria-label="Fechar aviso" onclick="this.parentElement.remove()">×</button>
+        </div>
+        <!-- Indicadores principais da competição selecionada. -->
+        <section class="metrics" id="overview-metrics" aria-label="Indicadores da temporada">
+          <button class="metric" type="button" data-detail="campaign">
+            <div class="metric-head">JOGOS</div>
+            <div class="metric-value">30</div>
+            <div class="metric-foot"><span class="pill neutral">32 PONTOS</span> 16º lugar</div>
+          </button>
+          <button class="metric" type="button" data-detail="campaign">
+            <div class="metric-head">APROVEITAMENTO</div>
+            <div class="metric-value">35,6<span class="unit">%</span></div>
+            <div class="metric-foot">
+              <span class="pill neutral">8V · 8E · 14D</span> aproveitamento
+            </div>
+          </button>
+          <button class="metric" type="button" data-detail="goalsFor">
+            <div class="metric-head">GOLS MARCADOS</div>
+            <div class="metric-value">31</div>
+            <div class="metric-foot"><span class="pill neutral">1,03</span> média por jogo</div>
+          </button>
+          <button class="metric" type="button" data-detail="goalsAgainst">
+            <div class="metric-head">GOLS SOFRIDOS</div>
+            <div class="metric-value">38</div>
+            <div class="metric-foot"><span class="pill neutral">1,27</span> média por jogo</div>
+          </button>
+        </section>
+        <!-- Eu separo resultados recentes da leitura agregada da campanha. -->
+        <section class="grid-main" id="desempenho">
+          <article class="panel chart-panel">
+            <div class="panel-head">
+              <div>
+                <div class="eyebrow">SEQUÊNCIA RECENTE</div>
+                <h2>Últimos resultados no Brasileirão</h2>
+              </div>
+              <button class="source-tag" type="button" data-detail="recent">
+                8 derrotas seguidas <span>↗</span>
+              </button>
+            </div>
+            <div class="chart-summary">
+              <span>Jogos mais recentes · placares finais</span
+              ><span>Sequência encerrada em <b>11 out.</b></span>
+            </div>
+            <div class="recent-results" id="recent-results"></div>
+            <div class="data-caption">
+              Brasileirão Série A · jogo mais recente: Palmeiras 4 × 1 Corinthians.
+              <button class="caption-action" type="button" data-detail="recent">
+                Abrir histórico
+              </button>
+            </div>
+          </article>
+          <article class="panel result-panel">
+            <div class="panel-head">
+              <div>
+                <div class="eyebrow">CAMPANHA</div>
+                <h2>Resultados</h2>
+              </div>
+              <button
+                class="more"
+                type="button"
+                data-detail="campaign"
+                aria-label="Ver detalhes da campanha"
+              >
+                ···
+              </button>
+            </div>
+            <div class="donut-wrap">
+              <div class="donut">
+                <div><strong>30</strong><small>JOGOS</small></div>
+              </div>
+              <div class="result-legend">
+                <div><i class="dot win"></i><span>Vitórias</span><b>8</b></div>
+                <div><i class="dot draw"></i><span>Empates</span><b>8</b></div>
+                <div><i class="dot loss"></i><span>Derrotas</span><b>14</b></div>
+              </div>
+            </div>
+            <div class="result-foot"><span>Saldo de gols</span><b>−7</b></div>
+          </article>
+        </section>
+        <!-- Artilharia e agenda ficam lado a lado em telas maiores. -->
+        <section class="grid-bottom">
+          <article class="panel players-panel" id="elenco">
+            <div class="panel-head">
+              <div>
+                <div class="eyebrow">ARTILHARIA DO CORINTHIANS</div>
+                <h2>Gols na temporada 2026</h2>
+              </div>
+              <button class="text-link" type="button" data-detail="scorers">
+                Ver detalhes <span>↗</span>
+              </button>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>JOGADOR</th>
+                    <th>GOLS NA TEMPORADA</th>
+                    <th>DESEMPENHO</th>
+                  </tr>
+                </thead>
+                <tbody id="scorers"></tbody>
+              </table>
+            </div>
+            <div class="data-caption">
+              Gols totais em todas as competições · recorte publicado em 24/09/2026.
+            </div>
+          </article>
+          <article class="panel fixtures-panel" id="jogos">
+            <div class="panel-head">
+              <div>
+                <div class="eyebrow">AGENDA</div>
+                <h2>Próximos jogos</h2>
+              </div>
+              <button class="text-link" type="button" data-detail="fixtures">
+                Ver calendário <span>↗</span>
+              </button>
+            </div>
+            <div id="fixtures"></div>
+            <div class="data-caption">Agenda consultada em 13/10/2026; horários de Brasília.</div>
+          </article>
+        </section>
+
+        <!-- Comparação histórica entre competições da temporada ativa. -->
+        <section class="panel competition-comparison" aria-labelledby="comparison-title">
+          <div class="panel-head">
+            <div>
+              <div class="eyebrow" id="comparison-season">TEMPORADA 2026</div>
+              <h2 id="comparison-title">Campanhas por competição</h2>
+            </div>
+            <span class="comparison-hint">Selecione para abrir o recorte</span>
+          </div>
+          <div
+            class="comparison-grid"
+            id="competition-comparison"
+            role="group"
+            aria-label="Comparar campanhas do Corinthians"
+          ></div>
+          <p class="comparison-footnote" id="comparison-footnote">
+            Cada cartão usa o recorte e a data de atualização próprios da competição.
+          </p>
+        </section>
+
+        <!-- Detalhes contextuais abrem sem tirar a pessoa do dashboard. -->
+        <dialog class="detail-dialog" id="detail-dialog" aria-labelledby="detail-title">
+          <div class="dialog-shell">
+            <header class="dialog-head">
+              <div>
+                <div class="eyebrow" id="detail-kicker">FIEL EM DADOS · DETALHES</div>
+                <h2 id="detail-title">Detalhes</h2>
+              </div>
+              <button
+                class="dialog-close"
+                type="button"
+                data-close-dialog
+                aria-label="Fechar janela"
+              >
+                ×
+              </button>
+            </header>
+            <div class="dialog-content" id="detail-content"></div>
+            <footer class="dialog-foot">
+              <span id="detail-source"></span><span>ESC <kbd>Esc</kbd> para fechar</span>
+            </footer>
+          </div>
+        </dialog>
+        <footer>
+          <span>FIEL EM DADOS <i>·</i> PROJETO DE PORTFÓLIO</span
+          ><span
+            >Fontes:
+            <a
+              href="https://classificacaogeral.com.br/analises-e-estatisticas/brasileirao/2026"
+              target="_blank"
+              rel="noreferrer"
+              >classificação</a
+            >
+            ·
+            <a href="https://agendaec.com.br/time/corinthians/" target="_blank" rel="noreferrer"
+              >agenda</a
+            >
+            ·
+            <a
+              href="https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/24/zagueiro-vice-artilheiro-e-memphis-em-baixa-marcas-expoem-problema-ofensivo-do-corinthians.ghtml"
+              target="_blank"
+              rel="noreferrer"
+              >artilharia</a
+            ></span
+          >
+        </footer>
+      </main>
+    </div>
+    <script src="data.js"></script>
+    <script src="competitions.js"></script>
+    <script src="renderers.js"></script>
+    <script src="details.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
