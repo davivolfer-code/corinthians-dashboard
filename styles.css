@@ -271,38 +271,41 @@ h2 {
   min-width: 135px;
   cursor: pointer;
 }
-.theme-toggle {
+.theme-picker {
   display: inline-flex;
   min-height: 36px;
   align-items: center;
   justify-content: center;
-  gap: 7px;
-  padding: 7px 10px;
+  gap: 3px;
+  padding: 3px;
   border: 1px solid var(--border);
-  border-radius: 7px;
+  border-radius: 8px;
   background: var(--surface);
+}
+.theme-option {
+  min-height: 28px;
+  padding: 5px 9px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: transparent;
   color: var(--text-secondary);
   font-size: 10px;
   font-weight: 700;
   cursor: pointer;
   transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
 }
-.theme-toggle:hover {
+.theme-option:hover {
   border-color: var(--red);
   color: var(--text);
 }
-.theme-toggle:focus-visible {
+.theme-option[aria-pressed="true"] {
+  border-color: var(--red);
+  background: var(--red-soft);
+  color: var(--text);
+}
+.theme-option:focus-visible {
   outline: 2px solid var(--red);
   outline-offset: 2px;
-}
-.theme-toggle-icon {
-  width: 15px;
-  height: 15px;
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 1.7;
 }
 .period {
   padding: 9px 12px;
