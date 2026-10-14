@@ -8,19 +8,6 @@
       content="Painel de desempenho do Corinthians — projeto de análise de dados esportivos."
     />
     <meta name="theme-color" content="#0d0f12" />
-    <!-- Eu restauro o tema salvo antes de carregar os estilos para evitar uma troca visual. -->
-    <script>
-      let savedTheme = null;
-      try {
-        savedTheme = localStorage.getItem("fiel-em-dados-theme");
-      } catch {
-        // Eu uso a preferência do sistema se o navegador bloquear o armazenamento local.
-      }
-      const systemPrefersLight = window.matchMedia?.("(prefers-color-scheme: light)").matches;
-      if (savedTheme === "light" || (savedTheme === null && systemPrefersLight)) {
-        document.documentElement.dataset.theme = "light";
-      }
-    </script>
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Fiel em Dados | Corinthians" />
     <meta
@@ -99,15 +86,7 @@
               <option value="copa-do-brasil">Copa do Brasil</option>
               <option value="libertadores">Libertadores</option>
               <option value="paulistao">Paulistão</option></select
-            ><div class="theme-picker" role="group" aria-label="Escolher tema">
-              <button class="theme-option" type="button" data-theme-option="light" aria-pressed="false">
-                Claro
-              </button>
-              <button class="theme-option" type="button" data-theme-option="dark" aria-pressed="false">
-                Escuro
-              </button>
-            </div>
-            <span class="avatar" title="Fiel em Dados">F</span>
+            ><span class="avatar" title="Fiel em Dados">F</span>
           </div>
         </header>
         <div class="notice">
@@ -314,6 +293,5 @@
     <script src="renderers.js"></script>
     <script src="details.js"></script>
     <script src="script.js"></script>
-    <script src="theme.js"></script>
   </body>
 </html>

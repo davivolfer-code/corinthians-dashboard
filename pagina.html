@@ -8,19 +8,6 @@
       content="Desempenho, elenco, artilharia, jogos, escalação e últimas notícias do Corinthians."
     />
     <meta name="theme-color" content="#0d0f12" />
-    <!-- Eu restauro o tema salvo antes de carregar os estilos para evitar uma troca visual. -->
-    <script>
-      let savedTheme = null;
-      try {
-        savedTheme = localStorage.getItem("fiel-em-dados-theme");
-      } catch {
-        // Eu uso a preferência do sistema se o navegador bloquear o armazenamento local.
-      }
-      const systemPrefersLight = window.matchMedia?.("(prefers-color-scheme: light)").matches;
-      if (savedTheme === "light" || (savedTheme === null && systemPrefersLight)) {
-        document.documentElement.dataset.theme = "light";
-      }
-    </script>
     <link rel="icon" type="image/png" href="images/corinthians-logo.png" />
     <title>Detalhes | Fiel em Dados</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -93,14 +80,6 @@
               <option value="paulistao">Paulistão</option>
               <option value="sulamericana">Sul-Americana</option>
             </select>
-            <div class="theme-picker" role="group" aria-label="Escolher tema">
-              <button class="theme-option" type="button" data-theme-option="light" aria-pressed="false">
-                Claro
-              </button>
-              <button class="theme-option" type="button" data-theme-option="dark" aria-pressed="false">
-                Escuro
-              </button>
-            </div>
           </div>
         </header>
         <!-- O JavaScript monta aqui a seção indicada pelo parâmetro da URL. -->
@@ -140,6 +119,5 @@
     <script src="news.js"></script>
     <script src="details.js"></script>
     <script src="script.js"></script>
-    <script src="theme.js"></script>
   </body>
 </html>
