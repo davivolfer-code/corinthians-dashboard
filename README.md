@@ -38,7 +38,7 @@ Como os arquivos usam caminhos relativos, o site também funciona em repositóri
 - A página Elenco mostra os jogadores cadastrados, permite busca por nome e filtro por posição e abre idade, nascimento, naturalidade, formação e trajetória profissional em ordem cronológica ao clicar em um atleta.
 - A página Artilharia permite buscar e ordenar os jogadores por gols ou nome.
 - A página Jogos alterna entre próximos compromissos e resultados recentes sem sair da página.
-- Últimas notícias reúne manchetes do RSS do UOL Esporte, com data, resumo, fonte e link para o artigo original; a coleta agendada roda a cada 30 minutos.
+- Últimas notícias reúne manchetes do RSS do Google Notícias, com data, resumo, fonte e link para a notícia original; a coleta agendada roda a cada 30 minutos.
 - Cartões, listas, filtros e números têm estados visuais animados, com suporte à configuração de movimento reduzido do sistema.
 - Próximos jogos abrem detalhes de data, horário, estádio e cidade. Resultados e compromissos também são clicáveis na página Jogos.
 - A janela de detalhes fecha pelo botão, clicando fora dela ou com a tecla `Esc`.
@@ -99,7 +99,7 @@ Abra `index.html` em um navegador. O escudo e as fontes tipográficas dependem d
 
 ### Ativar atualização automática de notícias
 
-O workflow está configurado para buscar o feed do [UOL Esporte — Corinthians](https://rss.esporte.uol.com.br/futebol/clubes/corinthians.xml) a cada 30 minutos e publicar as alterações em `noticias.json`. Para ativá-lo, publique o conteúdo desta pasta na branch padrão do repositório e permita que GitHub Actions grave conteúdo no repositório. A primeira execução pode ser iniciada em **Actions → Atualizar notícias do Corinthians → Run workflow**. O GitHub pode atrasar execuções agendadas em períodos de alta carga; ao abrir a página, o navegador busca o snapshot mais recente e tenta novamente a cada 10 minutos.
+O workflow está configurado para buscar notícias do [Google Notícias sobre o Corinthians](https://news.google.com/search?q=Corinthians+futebol&hl=pt-BR&gl=BR&ceid=BR%3Apt-419) a cada 30 minutos e publicar as alterações em `noticias.json`. O fluxo faz novas tentativas em caso de instabilidade e mantém o último snapshot válido se o provedor estiver indisponível. Execuções são serializadas para evitar disputa ao publicar alterações. Para ativá-lo, publique o conteúdo desta pasta na branch padrão do repositório e permita que GitHub Actions grave conteúdo no repositório. A primeira execução pode ser iniciada em **Actions → Atualizar notícias do Corinthians → Run workflow**. O GitHub pode atrasar execuções agendadas em períodos de alta carga; ao abrir a página, o navegador busca o snapshot mais recente e tenta novamente a cada 10 minutos.
 
 ## Melhorias futuras
 

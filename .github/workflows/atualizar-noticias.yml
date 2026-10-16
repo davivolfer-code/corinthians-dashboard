@@ -8,12 +8,16 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: atualizar-noticias
+  cancel-in-progress: false
+
 jobs:
   atualizar-feed:
     runs-on: ubuntu-latest
     steps:
       - name: Baixar repositório
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Atualizar snapshot do RSS
         run: python3 atualizar-noticias.py
       - name: Publicar alterações no snapshot
