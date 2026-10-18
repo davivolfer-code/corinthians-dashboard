@@ -1,21 +1,63 @@
 {
-  "updatedAt": "2026-10-18T20:42:59Z",
+  "updatedAt": "2026-10-18T22:37:11Z",
   "source": "Google Notícias · Corinthians",
   "feedUrl": "https://news.google.com/rss/search?q=Corinthians+futebol&hl=pt-BR&gl=BR&ceid=BR:pt-419",
   "items": [
+    {
+      "title": "Onde assistir a Corinthians x Vitória pelo Brasileirão e aos outros jogos desta segunda-feira (19)",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOGNXY1E3d1dHNk8yNGNrbG9zbEpSVWFzSUN4VVpYZ1BEaW5jS3ZrN2J4bmVGUzNITklGZFhmc0g5Y0tqXzloUHI5ZjFOTXBjbmJzY0d3N0dDWUtVSFRMeFhaQjVkRmJXXzdNS3hNZ2NPTFZvOHdQaXhDdnh3cmRVZmJFcXYySHhfNDdTWGhfYVREd2NkdWxFakN6LTc5b2pDTVNUeXpYbDNERmtjamo3VHltd2xhang1MUtWT1RPbXEtUmhKTGpZcjhqZ9IB2gFBVV95cUxPRVJuTDlpemgyekJOX0FYeVk4bmpzMnBISmlzUERRWTZDMm1uZ2Vhd1l4NlZUNm5DZnQwQ2N5elJTdnlrRERtRTVObE9ISlVzcnFfblZXMnlYb2kyUlYyQU5vWlpmeE1hLTdOcWxQZXRjS3l5RXFqcTJoRXJtQnB5YVphUGJXNzJhdVBNWWlqSFFGUUFxVWFqNy1UMXVKWklrN3l2Q3gyajBzXzBMTWlUNld5U1VKTThXVFNNWWhZZm0zRjBhYXZGcnEtMUZpN3ljRGp4WW82MlZRQQ?oc=5",
+      "summary": "Onde assistir a Corinthians x Vitória pelo Brasileirão e aos outros jogos desta segunda-feira (19) CBN",
+      "publishedAt": "2026-10-18T21:45:36Z",
+      "source": "CBN"
+    },
+    {
+      "title": "Red Bull Bragantino 1 x 0 Corinthians - Paulista Feminino Sub-20 2026",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTkdmZGZHN0FWbkZmNF9zV19JN091eGlKRnRvQnpHaU9ZczJhZGxTd29wdGZJSk5YT18xRnNOR3BoYlplMkluY25jR1E3YlVjWmxZcWUtZzQtdWRUYXVvamxteDZrT2RVYjhFS005V0Q5Q0paNmw1SnlmODBGd1lUWkZxdzRGUE5ncTRGYllISXlWTUVDQ0V5VEx2cDlNWTRkSDJJSWE4Um8?oc=5",
+      "summary": "Red Bull Bragantino 1 x 0 Corinthians - Paulista Feminino Sub-20 2026 Meu Timão",
+      "publishedAt": "2026-10-18T21:27:50Z",
+      "source": "Meu Timão"
+    },
+    {
+      "title": "Ao vivo: Corinthians x Vitória | Rodada 31 | Campeonato Brasileiro",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRmVabURZS1pBZi1fWWROOVctb2pFcjlXRG5YSWgtcmNIeWhIa2NKNFNqX1Q2ZFR1YXg3Rl8wZHZUWWlJSXMtcWpMX01NSHo4MktJRm1DNnJrZW95ZjdSTUo3RHM2RC10NFRWaHlSVVRUcFJXd3UyaTl1bTRfbGQwQXdtVGpzaFdCanU3azRwLWp5ZVU3UzFFNQ?oc=5",
+      "summary": "Ao vivo: Corinthians x Vitória | Rodada 31 | Campeonato Brasileiro ge",
+      "publishedAt": "2026-10-18T21:27:22Z",
+      "source": "ge"
+    },
+    {
+      "title": "Juca Kfouri: Cruzeiro de KJ arrasa o Grêmio e anima o Corinthians",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPc2NuVjB3aDNBR2pxSFlJVEJPdG80ak5YYjdRMTBaVVRuSHZrMFNkSjU0UTRfU0QxeHJRTGlERVB4ckFNUGRuMTZrNjh1WmgxSmZLNUJiUnRBenRZTWdnTGc5RGFHcDl3ZTR3aHJnS2Z3RUlpUUJ4TFpfa0hjNVVVYw?oc=5",
+      "summary": "Juca Kfouri: Cruzeiro de KJ arrasa o Grêmio e anima o Corinthians UOL",
+      "publishedAt": "2026-10-18T21:05:11Z",
+      "source": "UOL"
+    },
+    {
+      "title": "Corinthians vê chegar ao fim melhor sequência de vitórias da história do Sub-20 Feminino",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSW11Ym85Slg2SlU0ZFBSUVpVRHc5OGdCZWl3ZnFjUEhWS0Z3Qk1YNDZqZmVnaUZhMEZDbGZ1clR4ZzRMU2c1X2pUS1BlaWJLNEhjaExpZGRMbWJCSE8tYm5jVVlKaVpRTUl0SjduZzlTYnIxV013Z0tJbDNzekhUMHhOVnJsd1R6T1hHQjZJX3lIX2c2NkQyOWtKZHJvamF1c1hRT3cwRl9jMEY1d3RteFI1MVdoX0FBcnQ4TEY4WnpEb25KRVJmQWZNUTV4WVJQenhoUlFsS2xIaUFxYzU1ZA?oc=5",
+      "summary": "Corinthians vê chegar ao fim melhor sequência de vitórias da história do Sub-20 Feminino Meu Timão",
+      "publishedAt": "2026-10-18T21:05:00Z",
+      "source": "Meu Timão"
+    },
+    {
+      "title": "K. Jorge faz 3, Cruzeiro vira sobre Grêmio e mantém Corinthians fora do Z4",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWGJFMUVCaHFpd2lPdWJXYWRmYVVLbGxKX1h0M0l3ZGZBSzNVZFI0VFBEMXFEamN6VjBlTzgxZXF4YlpEcXNHWTZxQ2RQbkl2RjRwcTd4MnczQjBFQ09fY00yZkNjQmJrdFl2OExnbWFRQWlIdzdHeWluRWhBYW5OT0NzcXotWjMtR01oYTl5YVRORThrR3RZdlQ0VWR5aExjNG5N?oc=5",
+      "summary": "K. Jorge faz 3, Cruzeiro vira sobre Grêmio e mantém Corinthians fora do Z4 UOL",
+      "publishedAt": "2026-10-18T21:02:12Z",
+      "source": "UOL"
+    },
+    {
+      "title": "Ao vivo: Corinthians x Caracas | Rodada 2 | Taça Libertadores Feminina",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcVc5aVNSN0E3bjZSYTZ2TktVaDY0Ykhsd2lGQU4wcUxzTFVGcmRNeG5uNEY3Sks3SnFaMXc1eURTaEthQXBSQnBWY2swTHlwS2lzTDNHVm5rTWtfTElfd1dGRUxvckhrNWJQY3AxVElCUVBpWVpaU3h1dS1oTGJtaXVHWTVheW1yUjlqLXc1Q2lOZ1piTmRqbEtOS0F6b2JzNUVOUWprbWVTOC1XQTRLcDd3OTkwNXV6d2x2dnl5S0c2TzFjQXh5N3pn?oc=5",
+      "summary": "Ao vivo: Corinthians x Caracas | Rodada 2 | Taça Libertadores Feminina ge",
+      "publishedAt": "2026-10-18T20:49:25Z",
+      "source": "ge"
+    },
     {
       "title": "A equipe #paparazzorubronegro já está presente na Arena Fonte Nova para o duelo entre Flamengo e Bahia. O gramado aparenta estar em ótimo estado. 📸 @gabriel.orphao",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBlRjVlRkJxVGVqNVpYWWpXWG1VbDZxWVpPUTZ4X0tTdXVONmZzUUF1Y2RmRWlXaGNjOTU3TVRuaERRUjBnLUVKeGpXSFN4aVgxUVE?oc=5",
       "summary": "A equipe #paparazzorubronegro já está presente na Arena Fonte Nova para o duelo entre Flamengo e Bahia. O gramado aparenta estar em ótimo estado. 📸 @gabriel.orphao Instagram",
       "publishedAt": "2026-10-18T20:20:56Z",
       "source": "Instagram"
-    },
-    {
-      "title": "Ao vivo: Corinthians x Caracas | Rodada 2 | Taça Libertadores Feminina",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcVc5aVNSN0E3bjZSYTZ2TktVaDY0Ykhsd2lGQU4wcUxzTFVGcmRNeG5uNEY3Sks3SnFaMXc1eURTaEthQXBSQnBWY2swTHlwS2lzTDNHVm5rTWtfTElfd1dGRUxvckhrNWJQY3AxVElCUVBpWVpaU3h1dS1oTGJtaXVHWTVheW1yUjlqLXc1Q2lOZ1piTmRqbEtOS0F6b2JzNUVOUWprbWVTOC1XQTRLcDd3OTkwNXV6d2x2dnl5S0c2TzFjQXh5N3pn?oc=5",
-      "summary": "Ao vivo: Corinthians x Caracas | Rodada 2 | Taça Libertadores Feminina ge",
-      "publishedAt": "2026-10-18T19:00:45Z",
-      "source": "ge"
     },
     {
       "title": "Yuri joga amanhã? Veja prováveis escalações de Corinthians x Vitória",
@@ -30,13 +72,6 @@
       "summary": "Corinthians x Vitória: onde assistir, horário e escalações LANCE!",
       "publishedAt": "2026-10-18T18:24:22Z",
       "source": "LANCE!"
-    },
-    {
-      "title": "Ao vivo: Corinthians x Vitória | Rodada 31 | Campeonato Brasileiro",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRmVabURZS1pBZi1fWWROOVctb2pFcjlXRG5YSWgtcmNIeWhIa2NKNFNqX1Q2ZFR1YXg3Rl8wZHZUWWlJSXMtcWpMX01NSHo4MktJRm1DNnJrZW95ZjdSTUo3RHM2RC10NFRWaHlSVVRUcFJXd3UyaTl1bTRfbGQwQXdtVGpzaFdCanU3azRwLWp5ZVU3UzFFNQ?oc=5",
-      "summary": "Ao vivo: Corinthians x Vitória | Rodada 31 | Campeonato Brasileiro ge",
-      "publishedAt": "2026-10-18T18:24:15Z",
-      "source": "ge"
     },
     {
       "title": "Corinthians enfrenta uma equipe venezuelana pela segunda vez na história; relembre",
@@ -72,41 +107,6 @@
       "summary": "Corinthians tem adversário definido para quartas de final do Paulistão Sub-20 Meu Timão",
       "publishedAt": "2026-10-18T16:33:00Z",
       "source": "Meu Timão"
-    },
-    {
-      "title": "Campeão pelo Corinthians fala sobre carreira como técnico e espera merecer uma oportunidade no Timão",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZVBBZ2ZUYkk0NUxjR0Q4YzFsLXU2Y1hLX1ZOdUROamNqYkVXWm93UGVraEtwM1lzeDdCX3hzZnA1TnY2ZkQ1UXBtRW5IVVBFSEM2NTdsclFxZDEtV0JhWWRwVjhrZWFIX1RCRHhFdmZYd2ZXUjByRGFQNi1YWVJVY2pzd1FtcEZXNHk3OW1Hem9CUlcwZjVLWHFxVTkzeWo2UTYyRmZPZk96S0pkWkVZSk94QVI5YW1ISkE0bjU0VDFkZHh0VWQxaEdCaHZPa0Rua1JUTGlHRFcxc0FVb3BQRW9zSnhpWF9mSGRIQWwwbDQ?oc=5",
-      "summary": "Campeão pelo Corinthians fala sobre carreira como técnico e espera merecer uma oportunidade no Timão Meu Timão",
-      "publishedAt": "2026-10-18T15:01:00Z",
-      "source": "Meu Timão"
-    },
-    {
-      "title": "Recusou o Corinthians para ir para o Cruzeiro em 2026",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbUItaFhibmt5TjZ1ZTVHOVh1bjVtUHBoYWgtdWE1ZHVCanJuRFZrLWN0bldWQVJSeExfZmVqSElSbk1BeUJTRVN1VE1RQTNMWW5rYzNZbGozbGd2bnY3LXh3MjJTV1RMcXQya1JGYWJoczFfTmhSM3Rta2lOek1jT0MwQ0xFUVRSOFFHWGk4MFJ0cDk0VjVYZ1IwWFRydkhn?oc=5",
-      "summary": "Recusou o Corinthians para ir para o Cruzeiro em 2026 www.jornalcruzeiro.com.br",
-      "publishedAt": "2026-10-18T15:00:00Z",
-      "source": "www.jornalcruzeiro.com.br"
-    },
-    {
-      "title": "Clubes da Série A se articulam para tentar barrar acordo do Corinthians com a Caixa",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQzg1dkNpa3daZ29CeXhBUjYwU1JIT2lVSFdkRGsxczVqTlRQa2cxd0NVSXJwam50U1ZkcFhEX2VaTi1ldDVOQ0hkX21XNDdMenVnYlBoQTAyUkRNRHdhekJtaTdVUzQ4c1pQNW9TNzVYWmY3LU1YZE13SmliSXdqWlBUbEU5LTJIXzU1aDVRbEo1dVh0OUVCWEttQjh5cFZ0UWktclVpTEF1UU5XcXZJYURPRUNObXNENDhlVzEyWWtPV3dhTFVrVXhyOC05Z0lPbjYtWW9B?oc=5",
-      "summary": "Clubes da Série A se articulam para tentar barrar acordo do Corinthians com a Caixa R7 Esportes",
-      "publishedAt": "2026-10-18T14:35:45Z",
-      "source": "R7 Esportes"
-    },
-    {
-      "title": "Clarence Seedorf e Memphis Depay no Corinthians: qual a relação entre eles?",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV2FYbDJfNFNXd19nWG9wZm5tRDNEMzJYRGZwUDgzS0VCYU1yQS15Yjc1bXVMdkl2eVN3b1lneUZ5bm9FVUNVeDZXNzl2bzgtU3JhOW44X2tsNVdqem0yTjRNcEk3VlBlc04zalRPbnJlaU1HMzFaSWtsR2RvdjIzczdvaEp4LWlOZ21uTmh3TUU4SHRhRThUY2Z1VzFnNl9MUWF5NHlB?oc=5",
-      "summary": "Clarence Seedorf e Memphis Depay no Corinthians: qual a relação entre eles? Olympics",
-      "publishedAt": "2026-10-18T13:57:00Z",
-      "source": "Olympics"
-    },
-    {
-      "title": "Tem jogo do Corinthians hoje (18/10)? Veja quando será a próxima partida do Timão",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNR3NReHNGMS1jenM5N3Brdzd2VTZUMjR1aVpFbEtrVWVhNXVZUnU0R29yQnhtcTFTb3JHcWlLMldycXIzbXBPZTRFUWVsM1B1NTBOeFVzMjYxeEJoVld6bWJYM2EwaGdsZzhtdXRFSEg5RS1fREtKNndEWXpZbTRzSkZpakk1cThVenBoODIyMDBNaEVMLS1JaDc2ZFltcTROdEtkUF95QW5WOUVZTGpjd3k3RHAtdFlrLWhnUzVzYjFHdWIyLUQyby12bGtxdw?oc=5",
-      "summary": "Tem jogo do Corinthians hoje (18/10)? Veja quando será a próxima partida do Timão www.sportingnews.com",
-      "publishedAt": "2026-10-18T13:23:41Z",
-      "source": "www.sportingnews.com"
     }
   ]
 }
