@@ -48,12 +48,12 @@ Como os arquivos usam caminhos relativos, o site também funciona em repositóri
 
 - Temporada 2025: Brasileirão (13º, 47 pontos, 42 gols marcados e 47 sofridos), Paulistão (campeão), Copa do Brasil (campeão), Libertadores e Sul-Americana. As campanhas agregadas vêm do histórico sazonal do O Gol; alguns recortes de mata-mata foram conferidos com CBF e Federação Paulista. Os resultados exibidos em cada página são uma seleção de partidas, não o calendário completo.
 
-- Classificação e campanha: consulta de 13/10/2026. Corinthians em 16º, com 32 pontos em 30 jogos (8 vitórias, 8 empates e 14 derrotas), 31 gols marcados e 38 sofridos.
+- Classificação e campanha: consulta de 26/10/2026. Corinthians em 17º, com 33 pontos em 32 jogos (8 vitórias, 9 empates e 15 derrotas), 34 gols marcados e 42 sofridos.
 - Copa do Brasil: campanha encerrada nas oitavas contra o Internacional; resultados e retrospecto conferidos com a CBF e bases de calendário em 2026.
 - Libertadores: campanha encerrada nas quartas contra o Estudiantes; resultados das fases de grupos e eliminatórias consolidados a partir do balanço da CONMEBOL.
 - Paulistão: campanha encerrada na semifinal contra o Novorizontino; fase final conferida com a Federação Paulista e bases de resultados.
-- Últimos oito resultados do Brasileirão: de 16/08 a 11/10/2026.
-- Próximos jogos do Brasileirão: agenda consultada em 13/10/2026. Horários de Brasília.
+- Últimos dez resultados do Brasileirão: de 16/08 a 24/10/2026; os dois jogos mais recentes incluem escalações e cronologia dos gols.
+- Próximos jogos do Brasileirão: agenda consultada em 26/10/2026. Horários de Brasília.
 - Artilharia do Corinthians na temporada em todas as competições: recorte publicado em 24/09/2026. O artigo de referência registra 57 gols em 54 partidas do time e os três goleadores exibidos no painel.
 - Elenco: nomes, posições, camisas e dados biográficos revisados em 14/10/2026. Números de gols seguem o recorte de artilharia de 24/09/2026. Trajetórias mostram os clubes profissionais em ordem cronológica, identificam empréstimos quando informados e separam a formação de base. A lista pode não registrar passagens por equipes amadoras ou períodos sem vínculo profissional.
 
@@ -61,8 +61,9 @@ As competições encerradas são retratos documentados com fontes e datas própr
 
 ## Fontes consultadas
 
-- Classificação e estatísticas do Brasileirão: [Classificação Geral — Brasileirão Série A 2026](https://classificacaogeral.com.br/analises-e-estatisticas/brasileirao/2026). Consulta em 13/10/2026.
-- Agenda e resultados: [Agenda EC — Corinthians](https://agendaec.com.br/time/corinthians/). Consulta em 13/10/2026.
+- Classificação e estatísticas do Brasileirão: [CBF — tabela da Série A](https://www.cbf.com.br/futebol-brasileiro/tabelas/campeonato-brasileiro/serie-a) e resultados das 31ª e 32ª rodadas. Consulta em 26/10/2026.
+- Agenda e resultados: [CBF — agenda da Série A](https://credencial.cbf.com.br/competicoes/listar/42/1) e [Agenda EC — Corinthians](https://agendaec.com.br/time/corinthians/). Consulta em 26/10/2026.
+- Fichas recentes: [CBF — Corinthians x Vitória](https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/corinthians-x-vitoria/832194?view=escalacao) e [UOL — Vasco x Corinthians](https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/24/vasco-vira-em-2-min-frustra-seedorf-e-afunda-corinthians-em-jogo-dramatico.ghtm). Consulta em 26/10/2026.
 - Copa do Brasil 2026: histórico de partidas do Corinthians na [CBF](https://www.cbf.com.br/futebol-brasileiro/times/copa-do-brasil/profissional/2026/20001?tab=historico-de-partidas).
 - Temporada 2025: [O Gol — histórico da temporada do Corinthians](https://www.ogol.com.br/equipe/corinthians?epoca_id=154), [O Gol — Brasileirão 2025](https://www.ogol.com.br/edicao/brasileirao-serie-a-2025/194851), [CBF — título da Copa do Brasil](https://www.cbf.com.br/futebol-brasileiro/noticias/undefined/boa-x-ponte-preta/corinthians-vence-vasco-e-conquista-seu-quarto-titulo-da-copa-do-brasil) e [FPF — título do Paulistão](https://www.futebolpaulista.com.br/Noticias/Detalhe.aspx?Noticia=29006).
 - Libertadores 2026: resultados consolidados pela [CONMEBOL](https://gol.conmebol.com/libertadores/pt-br/news/corinthians-na-conmebol-libertadores-2026-resultados-elenco-e-calendario); eliminação nas quartas confirmada na ficha do [confronto com o Estudiantes](https://libertadores.com.br/jogos/estudiantes-x-corinthians/).

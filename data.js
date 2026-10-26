@@ -1,18 +1,18 @@
-// Retrato manual conferido em 13/10/2026. As fontes e datas de cada recorte
+// Retrato manual conferido em 26/10/2026. As fontes e datas de cada recorte
 // estão no README e no rodapé do dashboard.
 window.dashboardData = {
   competition: "Brasileirão Série A",
   season: 2026,
-  updatedAt: "13/10/2026",
+  updatedAt: "26/10/2026",
   stats: {
-    matches: 30,
+    matches: 32,
     wins: 8,
-    draws: 8,
-    losses: 14,
-    points: 32,
-    position: 16,
-    goalsFor: 31,
-    goalsAgainst: 38,
+    draws: 9,
+    losses: 15,
+    points: 33,
+    position: 17,
+    goalsFor: 34,
+    goalsAgainst: 42,
   },
   // Eu mantenho cada partida como um registro para facilitar a conferência da fonte.
   recentMatches: [
@@ -267,27 +267,72 @@ window.dashboardData = {
         { team: "Corinthians", scorer: "Gustavo Henrique", minute: "45’ 2ºT" },
       ],
     },
-  ],
-  // A agenda tem um recorte próprio, independente dos resultados concluídos.
-  fixtures: [
     {
       date: "19 OUT",
       opponent: "Vitória",
-      competition: "Brasileirão · Neo Química Arena",
+      score: "1–1",
+      venue: "Casa",
       time: "20:00",
-      home: true,
       stadium: "Neo Química Arena",
       city: "São Paulo, SP",
+      source:
+        "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/corinthians-x-vitoria/832194?view=escalacao",
+      lineup: {
+        corinthians: [
+          "Hugo Souza",
+          "Matheuzinho",
+          "Gabriel Paulista",
+          "Gustavo Henrique",
+          "Fabrizio Angileri",
+          "André",
+          "Breno Bidon",
+          "Rodrigo Garro",
+          "Jesse Lingard",
+          "Vitinho",
+          "Yuri Alberto",
+        ],
+      },
+      goals: [
+        { team: "Vitória", scorer: "Renê", minute: "45’ 1ºT" },
+        { team: "Corinthians", scorer: "Yuri Alberto (pênalti)", minute: "20’ 2ºT" },
+      ],
     },
     {
       date: "24 OUT",
       opponent: "Vasco da Gama",
-      competition: "Brasileirão · São Januário",
+      score: "2–3",
+      venue: "Fora",
       time: "18:30",
-      home: false,
       stadium: "São Januário",
       city: "Rio de Janeiro, RJ",
+      source:
+        "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/24/vasco-vira-em-2-min-frustra-seedorf-e-afunda-corinthians-em-jogo-dramatico.ghtm",
+      lineup: {
+        corinthians: [
+          "Hugo Souza",
+          "Matheuzinho",
+          "André Ramalho",
+          "Gustavo Henrique",
+          "Fabrizio Angileri",
+          "André",
+          "Breno Bidon",
+          "Rodrigo Garro",
+          "Matheus Bidu",
+          "Dieguinho",
+          "Yuri Alberto",
+        ],
+      },
+      goals: [
+        { team: "Vasco da Gama", scorer: "Puma Rodríguez", minute: "34’ 1ºT" },
+        { team: "Corinthians", scorer: "Gustavo Henrique", minute: "4’ 2ºT" },
+        { team: "Corinthians", scorer: "Matheus Bidu", minute: "11’ 2ºT" },
+        { team: "Vasco da Gama", scorer: "Marino Hinestroza", minute: "42’ 2ºT" },
+        { team: "Vasco da Gama", scorer: "Marino Hinestroza", minute: "44’ 2ºT" },
+      ],
     },
+  ],
+  // A agenda tem um recorte próprio, independente dos resultados concluídos.
+  fixtures: [
     {
       date: "30 OUT",
       opponent: "Mirassol",
